@@ -60,3 +60,16 @@ nav span .fa-shopping-cart{
 .intro-text span{
     margin-left: 5px;
 }
+/*--------------------
+- business partner style
+-----------------------*/
+.business-partners{
+    margin-left: 120px;
+    width: 1110px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
