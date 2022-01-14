@@ -11,6 +11,11 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.button{
+    padding: 10px 20px;
+    background-color: #E6425E;
+    border-radius: 20px;
+}
 
 /*------heading style----*/
 header{
@@ -29,4 +34,29 @@ nav a{
 }
 nav span .fa-shopping-cart{
     font-size: 24px;
+}
+
+/*---------------------------
+-----------introduction style
+----------------------------  */
+.introduction{
+    margin: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-text h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.intro-text p{
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.intro-text a{
+    text-decoration: none;
+    color: white;
+}
+.intro-text span{
+    margin-left: 5px;
 }
