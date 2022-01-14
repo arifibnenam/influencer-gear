@@ -126,8 +126,33 @@ nav span .fa-shopping-cart{
 
 
 
-
+/*-----------------
+--- footer style---
+------------------  */
 footer{
-    
-    height: 100px;
+    margin-top: 100px;
+    background-color: #242B2E;
+    height: 320px;
+
+}
+.footer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3{
+    color: white;
+}
+footer p{
+    color: gainsboro;
+}
+.footer-link{
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link a{
+    font-size: 2em;
+    color: white;
 }
