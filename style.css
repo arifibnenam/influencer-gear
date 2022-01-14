@@ -121,9 +121,34 @@ nav span .fa-shopping-cart{
     margin-top: 50px;
     margin-right: 105px;
 }
-
-
-
+/*-----------------------
+------ social work style--
+--------------------------  */
+.mission{
+    padding: 0 120px;
+    margin-top: 200px;
+    display: flex;
+}
+.about-mission{
+    margin-left: 100px;
+}
+.about-mission h2{
+    margin-top: 15px;
+    font-size: 38px;
+    font-weight: 700;
+}
+.about-mission p{
+    font-weight: 600;
+}
+.mission-link{
+    margin-top: 40px;
+}
+.about-mission a{
+    margin-right: 50px;
+    border-radius: 0;
+    text-decoration: none;
+    color: white;
+}
 
 
 /*-----------------
