@@ -73,3 +73,61 @@ nav span .fa-shopping-cart{
     align-items: center;
     margin-bottom: 100px;
 }
+/*----------
+----products style---
+-----------------  */
+.products-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products{
+    width: 1147px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+#products-tag{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.product{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding:20px 15px;
+    width: 329px;
+}
+.product img{
+    width: 100%;
+}
+.product-name{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: -13px;
+}
+.product-price{
+    font-size: 24px;
+    font-weight: 500;
+}
+.rating{
+    font-weight: 700;
+}
+.products-section > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #E6425E;
+    float: right;
+    margin-top: 50px;
+    margin-right: 105px;
+}
+
+
+
+
+
+
+footer{
+    
+    height: 100px;
+}
