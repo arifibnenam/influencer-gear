@@ -181,3 +181,65 @@ footer p{
     font-size: 2em;
     color: white;
 }
+
+/*-----------------------
+---- media query style---
+----------------------*/
+/*------mobile device------*/
+@media only screen and (max-width:688px) {
+
+    .introduction{
+        width: 90%;
+        text-align: center;
+        margin: 0;
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .intro-thumnail img{
+        margin-top: 30px;
+        width: 80%;
+
+    }
+    .business-partners{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        border: none;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .products{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .mission{
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .mission-thumnail img{
+        width: 80%;
+    }
+    .about-mission{
+        margin: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .about-mission a{
+        margin: 0;
+    }
+    footer, header{
+        display: none;
+    }
+  
+}
