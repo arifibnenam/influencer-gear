@@ -216,9 +216,12 @@ footer p{
     }
     .into-thumnail{
         width: 80%;
+        max-width: 380px;
     }
     .into-thumnail img{
+        margin-top: 50px;
         width: 80%;
+        max-width: 380px;
     }
     .business-partners{
         width: auto;
@@ -241,6 +244,9 @@ footer p{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
+    }
+    .product{
+        width: 80%;
     }
     .product-thumnail img{
         width: 40%;
