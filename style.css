@@ -224,6 +224,7 @@ footer p{
     .products-main{
         width: 100%;
         align-items: center;
+        margin: 0 10px;
         
     }
     .products{
