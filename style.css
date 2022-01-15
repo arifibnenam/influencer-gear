@@ -187,59 +187,58 @@ footer p{
 ----------------------*/
 /*------mobile device------*/
 @media only screen and (max-width:688px) {
-
-    .introduction{
-        width: 90%;
+    
+    .heading-title{
+        width: 100%;
+    }
+    .heading-title h3{
         text-align: center;
-        margin: 0;
-        padding-left: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+    nav{
+        display: none;
+    }
+    .introduction{
+        margin-top: 0;
         flex-direction: column;
         align-items: center;
-
-    }
-    .intro-thumnail img{
-        margin-top: 30px;
-        width: 80%;
-
+        text-align: center;
     }
     .business-partners{
-        width: 100%;
-        margin: 0;
-        margin-top: 20px;
-        border: none;
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 10px;
+        width: auto;
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .products-main{
+        align-items: center;
     }
     .products{
-        width: 100%;
+        width: auto;
         display: grid;
         grid-template-columns: 1fr;
-        justify-items: center;
     }
     .mission{
-        padding: 0;
-        width: 100%;
+        width: auto;
+        padding: 20px 20px;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
     .mission-thumnail img{
-        width: 80%;
+        width: 100%;
     }
     .about-mission{
         margin: 0;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+        text-align: center;
     }
-    .about-mission a{
+    .mission-link a{
         margin: 0;
+
     }
-    footer, header{
-        display: none;
+    footer{
+        width: 100%;
     }
-  
+
 }
