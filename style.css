@@ -210,6 +210,9 @@ footer p{
         align-items: center;
         text-align: center;
     }
+    .into-thumnail img{
+        width: 90%;
+    }
     .business-partners{
         width: auto;
         margin: 0; 
@@ -221,14 +224,13 @@ footer p{
     .products-main{
         width: 100%;
         align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
         
     }
     .products{
-        width: auto;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .mission{
         width: auto;
@@ -250,4 +252,49 @@ footer p{
         width: 100%;
     }
 
+}
+
+/*--------- 
+-----tablet device---
+-------------------- */
+@media only screen and (min-width:668px) and (max-width:992px) {
+    main{
+        width: 100%;
+    }
+    header{
+        flex-direction: column;
+    }
+    .introduction{
+        margin:100px 50px;
+    }
+    .business-partners{
+        width: 100%;
+        margin: 0 50px;
+        border: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 10px;
+        
+
+    }
+    .products-section{
+        width: 100%;
+    }
+    .products-main{
+        width: 100%;
+        margin: 0 20px;
+    }
+    .products{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .mission{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-mission{
+        margin: 0;
+    }
 }
