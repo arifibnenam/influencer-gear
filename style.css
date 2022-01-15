@@ -279,6 +279,7 @@ footer p{
 @media only screen and (min-width:668px) and (max-width:992px) {
     main{
         width: 100%;
+        overflow: hidden;
     }
     header{
         flex-direction: column;
@@ -298,15 +299,15 @@ footer p{
     }
     .products-section{
         width: 100%;
+
     }
-    .products-main{
-        width: 100%;
-        margin: 0 20px;
-    }
+
     .products{
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
+        margin-left: auto;
+        padding-left: 15px;
     }
     .mission{
         text-align: center;
