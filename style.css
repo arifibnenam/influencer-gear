@@ -227,6 +227,7 @@ footer p{
         
     }
     .products{
+        text-align: center;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
