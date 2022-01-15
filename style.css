@@ -216,7 +216,11 @@ footer p{
         align-items: center;
     }
     .products-main{
+        width: 100%;
         align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        
     }
     .products{
         width: auto;
