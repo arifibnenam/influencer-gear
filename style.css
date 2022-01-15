@@ -188,6 +188,7 @@ footer p{
 /*------mobile device------*/
 @media only screen and (max-width:688px) {
     main{
+        overflow: hidden;
         width: 100%;
     }
     header{
@@ -211,7 +212,7 @@ footer p{
         text-align: center;
     }
     .into-thumnail img{
-        width: 90%;
+        width: 80%;
     }
     .business-partners{
         width: auto;
@@ -224,7 +225,8 @@ footer p{
     .products-main{
         width: 100%;
         align-items: center;
-        margin: 0 10px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
     .products{
@@ -233,6 +235,9 @@ footer p{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
+    }
+    .product-thumnail img{
+        width: 40%;
     }
     .mission{
         width: auto;
